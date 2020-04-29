@@ -61,7 +61,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.51
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1655774249336596115
 GameObject:
@@ -388,9 +388,9 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 0, g: 1, b: 0.30488086, a: 1}
-    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0, g: 1, b: 0.30588236, a: 1}
+    m_PressedColor: {r: 0, g: 1, b: 0.30588236, a: 1}
+    m_SelectedColor: {r: 0, g: 1, b: 0.30588236, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1

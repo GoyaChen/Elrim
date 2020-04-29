@@ -46,7 +46,6 @@ public class BattleController : MonoBehaviour
         print(bulletTag);
         if (other.gameObject.CompareTag(bulletTag))
         {
-            print(HP);
             BulletController = other.GetComponent<BulletController>();
             bullet_damage = BulletController.damage;
             bullet_isMagic = BulletController.ismagic;
