@@ -12,6 +12,7 @@ TagManager:
   - Enemy
   - Wall
   - Ground
+  - Pick Up
   layers:
   - Default
   - TransparentFX

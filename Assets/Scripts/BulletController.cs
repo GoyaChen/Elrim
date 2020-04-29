@@ -2,12 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BulletAttacker : MonoBehaviour
+public class BulletController : MonoBehaviour
 {
     public float scale;
     public float damage;
     public bool ismagic;
-    public bool isEnemy;
 
     private string unitTag;
     // Start is called before the first frame update
@@ -24,11 +23,11 @@ public class BulletAttacker : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (isEnemy)
+        if (gameObject.CompareTag("EnemyBullet"))
         {
             unitTag = "Character";
         }
-        else
+        else if(gameObject.CompareTag("CharacterBullet"))
         {
             unitTag = "Enemy";
         }

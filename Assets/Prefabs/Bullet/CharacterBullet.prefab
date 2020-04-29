@@ -126,3 +126,4 @@ MonoBehaviour:
   scale: 0
   damage: 0
   ismagic: 0
+  isEnemy: 0
